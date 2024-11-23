@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giấc ngủ & Ăn uống</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Kiểm tra giấc ngủ và chế độ ăn uống</h1>
+
+    <!-- 1. Kiểm tra giấc ngủ -->
+    <div class="question">
+      <h3>A. Kiểm tra giấc ngủ</h3>
+      <p>1.Bạn ngủ trung bình bao nhiêu giờ mỗi đêm?</p>
+      <label
+        ><input type="radio" name="sleep_hours" value="under4" /> Dưới 4
+        giờ</label
+      >
+      <label
+        ><input type="radio" name="sleep_hours" value="4-6" /> 4-6 giờ</label
+      >
+      <label
+        ><input type="radio" name="sleep_hours" value="6-8" /> 6-8 giờ</label
+      >
+      <label
+        ><input type="radio" name="sleep_hours" value="8+" /> Hơn 8 giờ</label
+      >
+
+      <p>2.Chất lượng giấc ngủ của bạn như thế nào?</p>
+      <label
+        ><input type="radio" name="sleep_quality" value="good" /> Rất tốt</label
+      >
+      <label
+        ><input type="radio" name="sleep_quality" value="normal" /> Bình
+        thường</label
+      >
+      <label
+        ><input type="radio" name="sleep_quality" value="poor" /> Kém</label
+      >
+
+      <p>3.Bạn thường đi ngủ lúc mấy giờ?</p>
+      <label
+        ><input type="radio" name="bedtime" value="before10" /> Trước
+        22:00</label
+      >
+      <label
+        ><input type="radio" name="bedtime" value="10-11" /> 22:00 -
+        23:00</label
+      >
+      <label
+        ><input type="radio" name="bedtime" value="after11" /> Sau 23:00</label
+      >
+
+      <p>4.Bạn có cảm thấy tỉnh táo và sảng khoái khi thức dậy không?</p>
+      <label
+        ><input type="radio" name="wakeup_feeling" value="always" /> Có, luôn
+        luôn</label
+      >
+      <label
+        ><input type="radio" name="wakeup_feeling" value="sometimes" /> Thỉnh
+        thoảng</label
+      >
+      <label
+        ><input type="radio" name="wakeup_feeling" value="rarely" /> Hiếm
+        khi</label
+      >
+    </div>
+
+    <!-- 2. Kiểm tra chế độ ăn uống -->
+    <div class="question">
+      <h3>B. Kiểm tra chế độ ăn uống</h3>
+      <p>5.Bạn có ăn sáng mỗi ngày không?</p>
+      <label
+        ><input type="radio" name="breakfast" value="always" /> Có, luôn
+        luôn</label
+      >
+      <label
+        ><input type="radio" name="breakfast" value="sometimes" /> Thỉnh
+        thoảng</label
+      >
+      <label
+        ><input type="radio" name="breakfast" value="never" /> Không bao
+        giờ</label
+      >
+
+      <p>6.Bạn ăn bao nhiêu bữa một ngày?</p>
+      <label><input type="radio" name="meals" value="1-2" /> 1-2 bữa</label>
+      <label><input type="radio" name="meals" value="3" /> 3 bữa</label>
+      <label><input type="radio" name="meals" value="3+" /> Hơn 3 bữa</label>
+
+      <p>7.Bạn thường tiêu thụ những loại thực phẩm nào?</p>
+      <label
+        ><input type="radio" name="food" value="vegetables" /> Rau củ quả</label
+      >
+      <label
+        ><input type="radio" name="food" value="protein" /> Thực phẩm chứa
+        protein</label
+      >
+      <label
+        ><input type="radio" name="food" value="junk_food" /> Thực phẩm nhiều
+        đường/mỡ</label
+      >
+      <label
+        ><input type="radio" name="food" value="drinks" /> Đồ uống có đường hoặc
+        caffeine</label
+      >
+      <label for="">
+        <input type="radio" name="food" value="healthy" /> Rau và cả các thức ăn
+        giàu protein
+      </label>
+
+      <p>8.Bạn uống bao nhiêu nước mỗi ngày?</p>
+      <label
+        ><input type="radio" name="water" value="under1" /> Dưới 1 lít</label
+      >
+      <label><input type="radio" name="water" value="1-2" /> 1-2 lít</label>
+      <label><input type="radio" name="water" value="2+" /> Hơn 2 lít</label>
+    </div>
+
+    <button type="button" id="send">Gửi</button>
+    <div id="result"></div>
+    <script src="./fifth.js"></script>
+  </body>
+</html>

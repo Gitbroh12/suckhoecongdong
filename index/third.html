@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phần Về Tiền Sử Gia Đình</title>
+    <link rel="stylesheet" href="secondandthird.css" />
+  </head>
+  <body>
+    <div id="board-2">
+      <div id="yup">
+        <h1>Phần Về Tiền Sử Gia Đình</h1>
+        <p>
+          --Gia đình bạn có đang mắc các loại bệnh di truyền phổ biến không?--
+        </p>
+        <label>
+          <input type="radio" name="none" id="yes" value="yes" />Có bệnh</label
+        >
+        <label
+          ><input type="radio" name="none" id="no" value="no" />Không có
+        </label>
+      </div>
+      <br />
+      <div id="myForm">
+        <form>
+          <label
+            ><input type="checkbox" id="0" name="diabetes" /> Bệnh tiểu đường
+            (Type 2 Diabetes)</label
+          ><br />
+          <label
+            ><input type="checkbox" id="1" name="hypertension" /> Tăng huyết áp
+            (Hypertension)</label
+          ><br />
+          <label
+            ><input type="checkbox" id="2" name="cardiovascular" /> Bệnh tim
+            mạch (Cardiovascular Diseases)</label
+          ><br />
+          <label
+            ><input type="checkbox" id="3" name="obesity" /> Béo phì
+            (Obesity)</label
+          ><br />
+          <label
+            ><input type="checkbox" id="4" name="metabolic_syndrome" /> Hội
+            chứng chuyển hóa (Metabolic Syndrome)</label
+          ><br />
+          <label
+            ><input type="checkbox" id="5" name="gout" /> Bệnh gout
+            (Gout)</label
+          ><br />
+          <label
+            ><input type="checkbox" id="6" name="parkinsons" /> Bệnh Parkinson
+            (Parkinson's Disease)</label
+          ><br />
+          <label
+            ><input type="checkbox" id="7" name="osteoporosis" /> Loãng xương
+            (Osteoporosis)</label
+          ><br />
+          <label
+            ><input type="checkbox" id="8" name="dyslipidemia" /> Rối loạn lipid
+            máu (Dyslipidemia)</label
+          ><br />
+          <label
+            ><input type="checkbox" id="9" name="alzheimers" /> Bệnh Alzheimer
+            (Alzheimer's Disease)</label
+          ><br />
+          <label><input type="checkbox" id="10" name="others" /> Khác </label
+          ><br />
+          <button type="button" onclick="checkBox()">Kiểm tra</button>
+        </form>
+
+        <br />
+        <div id="result"></div>
+      </div>
+    </div>
+    <script src="third.js"></script>
+  </body>
+</html>

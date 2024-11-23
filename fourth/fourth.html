@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="fourth.css" />
+    <title>Mức độ vận động</title>
+  </head>
+  <body>
+    <h1>Kiểm tra mức độ vận động</h1>
+
+    <!-- 1. Tần suất vận động -->
+    <div class="question">
+      <h3>A. Tần suất vận động</h3>
+      <div class="options">
+        <p>1.Bạn thường tập thể dục bao nhiêu lần mỗi tuần?</p>
+        <label
+          ><input type="radio" name="exercise_frequency" value="never" /> Không
+          bao giờ</label
+        >
+        <label
+          ><input type="radio" name="exercise_frequency" value="1-2" /> 1-2
+          lần</label
+        >
+        <label
+          ><input type="radio" name="exercise_frequency" value="3-4" /> 3-4
+          lần</label
+        >
+        <label
+          ><input type="radio" name="exercise_frequency" value="5+" /> Hơn 5
+          lần</label
+        >
+        <p>2.Trung bình mỗi ngày bạn vận động thể chất bao lâu?</p>
+        <label
+          ><input type="radio" name="daily_activity" value="under15" /> Dưới 15
+          phút</label
+        >
+        <label
+          ><input type="radio" name="daily_activity" value="15-30" /> 15-30
+          phút</label
+        >
+        <label
+          ><input type="radio" name="daily_activity" value="30-60" /> 30-60
+          phút</label
+        >
+        <label
+          ><input type="radio" name="daily_activity" value="60+" /> Hơn 60
+          phút</label
+        >
+      </div>
+    </div>
+
+    <!-- 2. Loại hoạt động vận động -->
+    <div class="question">
+      <h3>B. Loại hoạt động vận động</h3>
+      <div class="options">
+        <p>3.Những hoạt động bạn thực hiện thường xuyên nhất là gì?</p>
+        <label
+          ><input type="radio" name="activity_type" value="nothing" /> Không làm
+          gì, hoặc ít khi vận động</label
+        >
+        <label
+          ><input type="radio" name="activity_type" value="walking" /> Đi bộ
+          chậm</label
+        >
+        <label
+          ><input type="radio" name="activity_type" value="cycling" /> Đi xe đạp
+          nhẹ nhàng</label
+        >
+        <label
+          ><input type="radio" name="activity_type" value="stairs" /> Leo cầu
+          thang</label
+        >
+        <label
+          ><input type="radio" name="activity_type" value="running" /> Chạy
+          bộ</label
+        >
+        <label
+          ><input type="radio" name="activity_type" value="intensive" /> Tập thể
+          dục nặng (gym, HIIT, yoga)</label
+        >
+      </div>
+    </div>
+
+    <!-- 3. Hoạt động trong công việc -->
+    <div class="question">
+      <h3>C. Hoạt động trong công việc</h3>
+      <div class="options">
+        <p>4.Công việc của bạn yêu cầu mức độ vận động thế nào?</p>
+        <label
+          ><input type="radio" name="work_activity" value="sitting" /> Ngồi yên
+          suốt cả ngày (công việc văn phòng)</label
+        >
+        <label
+          ><input type="radio" name="work_activity" value="standing" /> Đứng
+          nhiều hoặc di chuyển nhẹ nhàng (nhân viên bán hàng, giáo viên)</label
+        >
+        <label
+          ><input type="radio" name="work_activity" value="physical" /> Hoạt
+          động mạnh (lao động tay chân, vận động viên)</label
+        >
+      </div>
+    </div>
+
+    <!-- 4. Hoạt động trong cuộc sống hàng ngày -->
+    <div class="question">
+      <h3>D. Hoạt động trong cuộc sống hàng ngày</h3>
+      <div class="options">
+        <p>5.Bạn có thói quen đi bộ hoặc sử dụng cầu thang không?</p>
+        <label
+          ><input type="radio" name="daily_habits" value="often" /> Thường
+          xuyên</label
+        >
+        <label
+          ><input type="radio" name="daily_habits" value="sometimes" /> Đôi
+          khi</label
+        >
+        <label
+          ><input type="radio" name="daily_habits" value="rarely" /> Hiếm
+          khi</label
+        >
+        <label
+          ><input type="radio" name="daily_habits" value="never" /> Không bao
+          giờ</label
+        >
+        <p>
+          6.Bạn có tham gia các môn thể thao hoặc hoạt động ngoài trời không?
+        </p>
+        <label
+          ><input type="radio" name="sports" value="very_often" /> Có, rất
+          thường xuyên</label
+        >
+        <label
+          ><input type="radio" name="sports" value="irregular" /> Có, nhưng
+          không đều đặn</label
+        >
+        <label
+          ><input type="radio" name="sports" value="rarely" /> Hiếm khi</label
+        >
+        <label
+          ><input type="radio" name="sports" value="never" /> Không bao
+          giờ</label
+        >
+      </div>
+    </div>
+
+    <!-- 5. Mức độ thoải mái khi vận động -->
+    <div class="question">
+      <h3>E. Mức độ thoải mái khi vận động</h3>
+      <div class="options">
+        <p>7.Khi vận động, bạn cảm thấy thế nào?</p>
+        <label
+          ><input type="radio" name="comfort_level" value="very_comfortable" />
+          Rất thoải mái</label
+        >
+        <label
+          ><input type="radio" name="comfort_level" value="normal" /> Bình
+          thường</label
+        >
+        <label
+          ><input type="radio" name="comfort_level" value="tired" /> Hơi
+          mệt</label
+        >
+        <label
+          ><input type="radio" name="comfort_level" value="very_tired" /> Rất
+          mệt</label
+        >
+      </div>
+    </div>
+    <button type="button" id="send">Gửi</button>
+    <h3 id="result">kết quả:</h3>
+    <script src="./fourth.js"></script>
+  </body>
+</html>

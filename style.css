@@ -1,0 +1,126 @@
+/* Đặt nền cho trang */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #74ebd5, #9face6);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Định dạng tiêu đề chính */
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Khung cho từng phần câu hỏi */
+.question {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Tiêu đề từng phần */
+h3 {
+  color: #4a90e2;
+  margin-bottom: 15px;
+}
+
+/* Căn chỉnh các câu hỏi và nhãn */
+p {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+/* Nút gửi */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+/* Kết quả */
+#result {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+/* Đặt toàn bộ trang */
+body {
+  background-color: #f0f8ff;
+  font-family: "Arial", sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Chiều cao toàn màn hình */
+  text-align: center;
+}
+
+/* Định dạng tiêu đề chính (h1) */
+h1 {
+  font-size: 3rem; /* Tăng kích thước chữ */
+  color: #4a90e2;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px; /* Tạo khoảng cách giữa các chữ cái */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Định dạng tiêu đề phụ (h2) */
+h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Định dạng liên kết */
+a {
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  background-color: #4a90e2;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hiệu ứng khi di chuột qua liên kết */
+a:hover {
+  background-color: #357abd;
+  transform: scale(1.05); /* Phóng to nhẹ khi hover */
+}
+
+/* Điều chỉnh bố cục */
+.container {
+  max-width: 800px;
+  padding: 20px;
+}

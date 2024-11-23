@@ -1,0 +1,89 @@
+/* Đặt nền cho trang */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #74ebd5, #9face6);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Định dạng tiêu đề chính */
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+a {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  color: chocolate;
+  margin: 0 auto;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  background-color: palegreen;
+}
+/* Khung cho từng phần câu hỏi */
+.question {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Tiêu đề từng phần */
+h3 {
+  color: #4a90e2;
+  margin-bottom: 15px;
+}
+
+/* Căn chỉnh các câu hỏi và nhãn */
+p {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+/* Nút gửi */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+/* Kết quả */
+#result {
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: #357abd;
+  width: 30vw;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
